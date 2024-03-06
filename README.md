@@ -22,3 +22,8 @@ Find all the files that match the provided name pattern over some directory.
 ```bash
 ./find-dir-filename-pattern.sh /path/to/search_directory "*.txt"
 ```
+
+Move TF state resource for renamed module
+```bash
+./tf-multiple-state-mv.sh /tmp/tf_resources.txt ".main"
+```
